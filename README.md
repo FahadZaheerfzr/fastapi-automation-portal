@@ -1,4 +1,4 @@
-# Automation Tool API
+# FastAPI Automation Portal
 
 This is an automation portal that allows running of APIs that perform small automations.
 
