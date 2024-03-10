@@ -62,7 +62,7 @@ async def ping():
     return {"message": "Automation API is running successfully"}
 
 
-@app.post("/create-sla-user")
+@app.post("/create-user")
 @password_decorator_factory('Password@2024')
 async def create_sla_user(password: SecretStr, name: str, email: str, mobile: str, office: str, existing_user: str, skip_userdb:bool, user_type: str = Query('mspsla', enum=['mspsla', 'mobile', 'sec', 'admin']),):
     try:
