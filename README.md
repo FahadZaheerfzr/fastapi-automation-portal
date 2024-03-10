@@ -7,13 +7,13 @@ This is an automation portal that allows running of APIs that perform small auto
 1. Clone the repository:
 
   ```bash
-  git clone https://github.com/your-username/automation-tool-api.git
+  git clone https://github.com/FahadZaheerfzr/fastapi-automation-portal.git
   ```
 
 2. Change into the project directory:
 
   ```bash
-  cd automation-tool-api
+  cd fastapi-automation-portal
   ```
 
 3. Create a virtual environment:
